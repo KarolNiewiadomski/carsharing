@@ -297,7 +297,14 @@ body {
 
 .contact {
   margin: 60px auto;
+
   height: 489px;
+}
+
+.contact-container {
+    width: 904px;
+    height: 489px;;
+    margin: 0 auto;
 }
 
 .contact-title {
@@ -306,3 +313,13 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.form-container { 
+margin: 25px 0;
+}
+
+.form-image {
+  width: 444px;
+  height: 317px;
+}
+
