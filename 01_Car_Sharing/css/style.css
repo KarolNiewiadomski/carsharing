@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+.container {
+  width: 1088;
+}
+
+.banner {
+  background-image: url("../images/Image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  display: flex;
+  justify-content: center;
+  height: 807px;
+  width: 100%;
+}
+
+.nav-bar {
+  top: -3px;
+  left: -3px;
+  width: 1371px;
+  height: 93px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
