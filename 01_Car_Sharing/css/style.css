@@ -7,16 +7,17 @@
   box-sizing: border-box;
 }
 
-/* body * {
+body * {
   border: 1px dotted blue;
-} */
+}
 
 body {
   width: 100%;
 }
 
 .container {
-    width: 1088px;
+  width: 1088px;
+  margin: 0 auto;
 }
 
 .banner > * {
@@ -30,7 +31,7 @@ body {
   background-position: fixed;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 98vh;
   position: relative;
 }
 
@@ -162,6 +163,7 @@ body {
   position: absolute;
   left: 50%;
   bottom: -30px;
+  transform: translate(-50%,0);
 }
 
 .arrow img {
@@ -170,5 +172,12 @@ body {
 }
 
 .blog {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
+  height: 516px;
+}
+
+.blog-header {
+  margin: 95px;
+  display: flex;
+  justify-content: center;
 }
