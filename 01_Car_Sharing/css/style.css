@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  width: 1088px;
+    width: 1088px;
 }
 
 .banner > * {
@@ -30,7 +30,7 @@ body {
   background-position: fixed;
   display: flex;
   justify-content: center;
-  height: 97vh;
+  height: 100vh;
   position: relative;
 }
 
@@ -167,4 +167,8 @@ body {
 .arrow img {
   width: 21px;
   height: 22px;
+}
+
+.blog {
+    background-color: var(--secondary-color);
 }
