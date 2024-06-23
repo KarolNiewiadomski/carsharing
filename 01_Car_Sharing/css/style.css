@@ -1,20 +1,18 @@
-body * {
-  border: 1px dotted blue;
+:root {
+  --main-color: #ff0000;
+  --secondary-color: #ffffff;
 }
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
+
+/* body * {
+  border: 1px dotted blue;
+} */
 
 body {
   width: 100%;
-}
-
-:root {
-  --main-color: #ff0000;
-  --secondary-color: #ffffff;
 }
 
 .container {
@@ -32,9 +30,8 @@ body {
   background-position: fixed;
   display: flex;
   justify-content: center;
-  height: 807px;
+  height: 97vh;
   position: relative;
-  
 }
 
 .banner::before {
@@ -50,7 +47,7 @@ body {
 
 .logo {
   font: normal normal bold 35px/47px Nunito Sans;
-  color: #ffffff;
+  color: var(--secondary-color);
   text-transform: uppercase;
   height: 47px;
 }
@@ -63,14 +60,14 @@ body {
 .logo span {
   color: var(--main-color);
   font: normal normal 800 35px/47px Nunito Sans;
-    }
+}
 
 .nav-bar > * {
   z-index: 100;
 }
 
 .nav-bar {
-  color: white;
+  color: var(--secondary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -90,7 +87,7 @@ body {
 }
 
 .nav-bar li:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .nav-btn ul {
@@ -101,7 +98,7 @@ body {
 
 .nav-btn li {
   font: normal normal bold 16px/22px Nunito Sans;
-  color: #ffffff;
+  color: var(--secondary-color);
   text-transform: uppercase;
   padding: 33px 40px;
 }
@@ -133,18 +130,41 @@ body {
   padding: 22px 55px;
   font: normal normal bold 16px/22px Nunito Sans;
   border: 0;
-  border-radius: 50px;
+  border-radius: 40px;
   text-transform: uppercase;
 }
 
-.red-btn {
+.alert-btn {
   background-color: var(--main-color);
   color: var(--secondary-color);
-  margin-right: 25px;
   box-shadow: 0px 3px 6px #ff00004d;
 }
 
-.white-btn {
+.btn-right {
+  margin-right: 25px;
+}
+
+.info-btn {
   color: var(--main-color);
   background-color: var(--secondary-color);
+}
+
+.arrow {
+  width: 55px;
+  height: 55px;
+  background-color: var(--main-color);
+  border: 0;
+  border-radius: 50%;
+  box-shadow: 0px 3px 6px #ff00004d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  bottom: -30px;
+}
+
+.arrow img {
+  width: 21px;
+  height: 22px;
 }
