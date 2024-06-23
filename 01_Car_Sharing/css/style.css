@@ -163,7 +163,7 @@ body {
   position: absolute;
   left: 50%;
   bottom: -30px;
-  transform: translate(-50%,0);
+  transform: translate(-50%, 0);
 }
 
 .arrow img {
@@ -174,10 +174,33 @@ body {
 .blog {
   background-color: var(--secondary-color);
   height: 516px;
+  width: 1088px;
+  margin: 90px auto;
 }
 
-.blog-header {
-  margin: 95px;
+.blog-title {
+  font: normal normal bold 35px/47px Nunito Sans;
+  text-transform: uppercase;
   display: flex;
   justify-content: center;
+}
+
+.lines::before,
+.lines::after {
+  content: "";
+  display: inline-block;
+  height: 3px;
+  width: 50px;
+  background-color: var(--main-color);
+  box-shadow: 0px 1px 6px #ff00004d;
+  position: relative;
+  top: 20px;
+}
+
+.lines::before {
+  margin-right: 10px;
+}
+
+.lines::after {
+  margin-left: 10px;
 }
