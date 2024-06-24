@@ -128,22 +128,30 @@
     </section>
 
     <section class="contact">
-        <div class="contact-container">
 
-            <h2 class="contact-title lines">Contact</h2>
+        <h2 class="contact-title lines">Contact</h2>
+
+        <div class="contact-container">
+           
             <div class="form-container">
+
                 <img src="images/Form Photo.png" class="form-image">
 
-                <form action="">
-                    <input type="text">
-                    <input type="email">
-                    <input type="textarea">
-                    <input type="checkbox">
-                    <p>I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</p>
-                </form>
-                <button>Send</button>
-            </div>
+                <form action="" method="get" class="form">
+                    <input type="text" placeholder="Type your name" class="text-area">
 
+                    <input type="email" placeholder="Type your e-mail" class="text-area">
+
+                    <textarea placeholder="Type your message" class="text-area message-area"></textarea>
+                    <!-- <input type="textarea" placeholder="Type your message" class="text-area message-area"> -->
+
+                        <div class="consent-box">
+                            <input type="checkbox">
+                            <p>I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</p>
+                        </div>
+                </form>
+            </div>
+            <button class="form-btn">Send</button>
 
         </div>
     </section>

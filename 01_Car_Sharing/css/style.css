@@ -297,14 +297,6 @@ body {
 
 .contact {
   margin: 60px auto;
-
-  height: 489px;
-}
-
-.contact-container {
-    width: 904px;
-    height: 489px;;
-    margin: 0 auto;
 }
 
 .contact-title {
@@ -313,13 +305,49 @@ body {
   display: flex;
   justify-content: center;
 }
+.contact-container {
+  width: 904px;
+  margin: 0 auto;
+}
 
-.form-container { 
-margin: 25px 0;
+.form-container {
+  margin: 25px 0;
+  display: flex;
 }
 
 .form-image {
   width: 444px;
   height: 317px;
+  margin-right: 16px;
 }
 
+.text-area {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 6px #ff00004d;
+  border: 1px solid #ff0000;
+  border-radius: 8px;
+  width: 440px;
+  margin-bottom: 20px;
+  font: normal normal normal 14px/16px Nunito Sans;
+  color: #B2B2B2;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.message-area {
+  height: 140px;
+  padding: 12px;
+}
+
+input[type="text"],
+input[type="email"] {
+padding: 12px;
+}
+
+
+
+
+.consent-box {
+  font: normal normal 300 10px/14px Open Sans;
+  color: #B2B2B2;
+}
