@@ -344,10 +344,14 @@ input[type="email"] {
 padding: 12px;
 }
 
-
-
-
 .consent-box {
   font: normal normal 300 10px/14px Open Sans;
   color: #B2B2B2;
+  display: flex;
+  justify-content: flex-start;
+}
+
+input[type="checkbox"] {
+  display: flex;
+  align-items: flex-start;
 }
