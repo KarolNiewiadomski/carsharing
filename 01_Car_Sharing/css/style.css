@@ -312,7 +312,8 @@ body {
 }
 
 .form-container {
-  margin: 25px 0;
+  margin-top: 35px;
+  margin-bottom: 20px;
   display: flex;
 }
 
@@ -350,9 +351,30 @@ input[type="email"] {
   color: #b2b2b2;
   display: flex;
   justify-content: flex-start;
+  width: 440px;
 }
 
 input[type="checkbox"] {
   display: flex;
   align-items: flex-start;
+  height: 30px;
+  width: 70px;
+  border-radius: 8px;
+  background: var(--secondary-color);
+}
+
+.form-btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-btn {
+  width: 142px;
+  height: 40px;
+  font: normal normal bold 14px/19px Nunito Sans;
+  color: #ff0000;
+ background-color: var(--secondary-color);
+  box-shadow: 0px 3px 6px #ff00004d;
+  border: 1px solid #ff0000;
+  border-radius: 40px;
 }
