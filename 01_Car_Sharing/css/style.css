@@ -355,12 +355,14 @@ input[type="email"] {
 }
 
 input[type="checkbox"] {
+  appearance: none;
   display: flex;
   align-items: flex-start;
-  height: 30px;
-  width: 70px;
+  height: 22px;
+  width: 22px;
   border-radius: 8px;
   background: var(--secondary-color);
+  border: 1px solid #D1D1D1;
 }
 
 .form-btn-container {
