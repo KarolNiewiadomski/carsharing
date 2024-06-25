@@ -349,25 +349,44 @@ input[type="email"] {
 .consent-box {
   font: normal normal 300 10px/14px Open Sans;
   color: #b2b2b2;
-  display: flex;
-  justify-content: flex-start;
   width: 440px;
+  display: flex;
+
 }
 
-.checkbox {
-  display: flex;
+.consent-box input {
+  height: 22px;
+  width: 88px;
+  border-radius: 8px;
+  background: var(--secondary-color);
+  border: 1px solid #d1d1d1;
+  position: relative;
 }
+
 
 input[type="checkbox"] {
-  appearance: none;
-  display: flex;
+  /* display: flex;
   align-items: flex-start;
   height: 22px;
   width: 88px;
   border-radius: 8px;
   background: var(--secondary-color);
+  border: 1px solid #D1D1D1; */
+  opacity: 0;
+} 
+
+input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  background-color: var(--secondary-color);
   border: 1px solid #D1D1D1;
+  border-radius: 8px;
+  height: 22px;
+  width: 88px;
+  top: 0;
+  left: 0;
 }
+
 
 
 .form-btn-container {
@@ -380,7 +399,7 @@ input[type="checkbox"] {
   height: 40px;
   font: normal normal bold 14px/19px Nunito Sans;
   color: #ff0000;
- background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
   box-shadow: 0px 3px 6px #ff00004d;
   border: 1px solid #ff0000;
   border-radius: 40px;
