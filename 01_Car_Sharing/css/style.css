@@ -173,8 +173,6 @@ body {
 
 .blog {
   background-color: var(--secondary-color);
-  height: 516px;
-  width: 1088px;
   margin: 90px auto;
 }
 
@@ -223,6 +221,7 @@ body {
 .blog-article-title {
   font: normal normal normal 19px/26px Nunito Sans;
   color: #6a6a6a;
+  margin-top: 24px;
 }
 
 .blog-article-text {
@@ -230,6 +229,7 @@ body {
   color: #6a6a6a;
   width: 260px;
   height: 79px;
+  margin-top: 15px;
 }
 
 .blog-container {
@@ -239,15 +239,16 @@ body {
 .article-btn {
   width: 142px;
   height: 40px;
+  margin-top: 26px;
   box-shadow: 0px 3px 6px #ff00004d;
-  border-radius: 40px;
   background-color: var(--main-color);
+  color: var(--secondary-color);
+  font: normal normal bold 14px/19px Nunito Sans;
+  border-radius: 40px;
   text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--secondary-color);
-  font: normal normal bold 14px/19px Nunito Sans;
 }
 
 .services {
@@ -329,7 +330,7 @@ body {
   width: 440px;
   margin-bottom: 20px;
   font: normal normal normal 14px/16px Nunito Sans;
-  color: #B2B2B2;
+  color: #b2b2b2;
   display: flex;
   justify-content: flex-start;
 }
@@ -341,12 +342,12 @@ body {
 
 input[type="text"],
 input[type="email"] {
-padding: 12px;
+  padding: 12px;
 }
 
 .consent-box {
   font: normal normal 300 10px/14px Open Sans;
-  color: #B2B2B2;
+  color: #b2b2b2;
   display: flex;
   justify-content: flex-start;
 }
