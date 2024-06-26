@@ -443,6 +443,10 @@ footer {
  flex-wrap: wrap;
 }
 
+.footer-links li:hover {
+  color: var(--main-color);
+}
+
 .footer-links-left {
   margin-right: 141px;
 }
